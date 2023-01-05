@@ -456,5 +456,67 @@ h2{
         display: none;
     }
 
+    
+    /* code to copy */
+    .content2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .area2{
+        flex-direction:column;
+        height: 100vh;
+    }
+
+    .image-area2{
+        background-image: url(./images/feature-1.jpg);
+        background-position:center center;
+        background-size: cover;
+        height: 50vh;    
+    }
+    .words{
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .area3{
+        flex-direction:column;
+        height: 100vh; 
+    }
+
+    .image-area3{
+        background-image: url(./images/feature-2.jpg);
+        background-position:center center;
+        background-size: cover;
+        height: 50vh;    
+    }
+
+    .area4{
+        flex-direction:column;
+        height: 100vh;
+    }
+
+    .image-area4{
+        background-image: url(./images/feature-3.jpg);
+        background-position:center center;
+        background-size: cover;
+        height: 50vh;    
+    }
+
+    .area5{
+        flex-direction:column;
+        height: 100vh;
+    }
+
+    .image-area5{
+        background-image: url(./images/feature-4.jpg);
+        background-position:center center;
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .image-area6{
+      height: 100vh;
+    }
 }
 
